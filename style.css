@@ -6,7 +6,7 @@
 }
 
 body {
-	background-color: #fafafa;
+	background-color: #fff;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -24,12 +24,29 @@ body {
 .checkbox {
     display: none;
 }
+.text{
+    position: relative;
+    height: 25px;
+}
 
 .dark_text {
+    /* top: px; */
+    width: 200px;
+    position: absolute;
     color: #fff;
+    font-weight: bolder;
+    top: -30px;
 }
 .light_text {
+    width: 200px;
     color: #292C35;
+    margin: 0;
+    font-weight: bolder;
+    position: absolute;
+    margin: 17px 0;
+
+
+
 }
 .label {
 	background-color: #111;
